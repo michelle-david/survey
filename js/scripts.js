@@ -5,22 +5,21 @@ $(document).ready(function() {
     const username = $("input#username").val();
     console.log(username);
     const answer1 = parseInt($("input:radio[name=question1]:checked").val());
-    console.log(answer1); //remove this after verifying
+    
     const answer2 = parseInt($("input:radio[name=question2]:checked").val());
-    console.log(answer2);  //remove this after verifying
+    
     const answer3 = parseInt($("input:radio[name=question3]:checked").val());
-    console.log(answer3);  //remove this after verifying
+    
     const answer4 = parseInt($("input:radio[name=question4]:checked").val());
-    console.log(answer4);  //remove this after verifying
+  
     const answer5 = parseInt($("input:radio[name=question5]:checked").val());
-    console.log(answer5);  //remove this after verifying
 
     const total = answer1 + answer2 + answer3 + answer4 + answer5;
     let result;
     if (total <= 10) {
       result = (username + ", you're a standout candidate to master Python! this high-level, general-purpose programming language will allow you to tackle the greatest existential problems of all time.")
     } else if (total >= 11 && total <= 30) {
-      result = username + ", amazing! all signs point to learning Swift. once you've memorized the ins and outs of this exciting new language you'll be able to create the next candy crush! "
+      result = username + ", amazing! all signs point to learning Swift. once you've memorized the ins and outs of this exciting new language you'll be able to create the next candy crush!"
     } else if (total >= 31 && total <= 50) {
       result = username + ", nice job. our survey says you're a top candidate for a certificate in Rust. voted the 'most loved programming language' in the Stack Overflow Developer Survey every year since 2016, this versatile language is free, open-source, and just might save the world."
     } else if (total >= 51 && total <= 80) {
@@ -28,8 +27,6 @@ $(document).ready(function() {
     } else {
       result = username + ", our crystal ball sees Visual Basic in your future. first appearing nearly 30 years ago, this event-driven programming language has lasted for a while because of its ease of use and popularity. give it a spin and see for yourself!"
     }
-    console.log(total); // remove this after verifying
-    console.log(result); // remove this after verifying
 
     $("#output").text(result);
     $("#footer").show();
@@ -41,6 +38,3 @@ $(document).ready(function() {
   });
 
 });
-
-//don't forget your readme!!!
-// to do for wednesday: add css styles, complete survey result output, add readme.

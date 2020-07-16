@@ -10,7 +10,7 @@
 
 ## access instructions / URL
 
-* this project is hosted on GitHub pages and may be accessed here: michelle-david.github.io/survey/
+* this project is hosted on GitHub pages and may be accessed here: https://michelle-david.github.io/survey/
 
 ## technologies used
 
@@ -18,7 +18,7 @@
 
 ## support and contact details
 
-* Do you have any questions, comments, or just want to say hi? Reach out to me at github.com/michelle-david. I'd love to hear from you!
+* Do you have any questions, comments, or just want to say hi? Reach out to me at https://github.com/michelle-david. I'd love to hear from you!
 
 ## license
 
